@@ -1,0 +1,9 @@
+<div class="dashboard">
+  <div class="wrapper">
+    <h1>HERE GOES DASHBOARD</h1>
+
+    <a class="bt-access-web" style="display:block;padding:5px;background:#333;color:#FFF;margin:5px;cursor:pointer;margin-bottom:5px">ACESSAR WWW</a>
+
+    <a class="bt-sample" style="display:block;padding:5px;background:#333;color:#FFF;margin:5px;cursor:pointer;margin-bottom:5px" onclick="Router.navigate('/testing-space',true);return false">Testing Space</a>
+  </div>
+</div>

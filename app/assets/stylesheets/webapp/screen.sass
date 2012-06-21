@@ -1,0 +1,79 @@
+.button, .button:visited
+  display: inline-block
+  padding: 10px
+  background: #555
+  border: 2px solid #000
+  border-top: 2px solid #CCC
+  border-left: 2px solid #CCC
+  color: #DDD
+  margin-top: 20px
+  cursor: pointer
+
+.desktop .button:hover
+  background: #555
+  color: #FFF
+
+.button:active, .desktop .button:active, .active
+  background: #333
+  border: 2px solid #CCC
+  border-top: 2px solid #000
+  border-left: 2px solid #000
+  color: #DDD
+
+.phx
+  left: 50%
+  position: absolute
+
+.phy
+  top: 50%
+  position: absolute
+
+.title-bar
+  width: 100%
+  position: relative
+  height: 44px
+  overflow: hidden
+
+.title-bar .wrapper
+  @extend .assets-mobile-header
+  position: absolute
+  top: 0px
+  left: 0px
+  width: 100%
+  height: 44px
+
+.title-bar .wrapper .logo-ph
+  @extend .assets-header-letsyell-logo-half-x
+  position: absolute
+  top: 8px
+
+.title-bar .wrapper .logo
+  @extend .assets-header-letsyell-logo
+
+.title-bar .wrapper .bt-dashboard
+  position: absolute
+  top: 0px
+  left: 0px
+  width: 52px
+  height: 43px
+  cursor: pointer
+
+.title-bar .wrapper .bt-dashboard span
+  @extend .assets-header-dashboard-button
+  position: absolute
+  top: 5px
+  left: 4px
+
+.title-bar .wrapper .bt-yell
+  position: absolute
+  top: 0px
+  right: 0px
+  width: 52px
+  height: 43px
+  cursor: pointer
+
+.title-bar .wrapper .bt-yell span
+  @extend .assets-header-yell-button
+  position: absolute
+  top: 5px
+  right: 4px

@@ -1,0 +1,11 @@
+<div class="title-bar">
+  <div class="wrapper">
+    <div class="bt-dashboard"><span /></div> 
+    <div class="bt-yell"><span /></div>
+    <div class="phx">
+      <div class="logo-ph">
+        <div class="logo"></div>
+      </div>
+    </div>
+  </div>
+</div>
